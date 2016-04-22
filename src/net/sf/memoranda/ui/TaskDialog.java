@@ -208,7 +208,13 @@ public class TaskDialog extends JDialog {
 
         jLabelEffort.setMaximumSize(new Dimension(100, 16));
         jLabelEffort.setMinimumSize(new Dimension(60, 16));
-        jLabelEffort.setText(Local.getString("Time spent(hrs)"));
+        jLabelEffort.setText(Local.getString("Est time(hrs)"));
+        effortField.setBorder(border8);
+        effortField.setPreferredSize(new Dimension(30, 24));
+        
+        jLabelEffort.setMaximumSize(new Dimension(100, 16));
+        jLabelEffort.setMinimumSize(new Dimension(60, 16));
+        jLabelEffort.setText(Local.getString("Hrs worked"));
         effortField.setBorder(border8);
         effortField.setPreferredSize(new Dimension(30, 24));
 

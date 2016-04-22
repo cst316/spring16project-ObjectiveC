@@ -94,7 +94,6 @@ public class TaskDialog extends JDialog {
     JLabel jLabel7 = new JLabel();
     // added by rawsushi
     JLabel jLabelEffort = new JLabel();
-    JLabel jLabelEffort2 = new JLabel();
     JLabel jLabelDescription = new JLabel();
 	JCheckBox chkEndDate = new JCheckBox();
 	
@@ -209,14 +208,7 @@ public class TaskDialog extends JDialog {
 
         jLabelEffort.setMaximumSize(new Dimension(100, 16));
         jLabelEffort.setMinimumSize(new Dimension(60, 16));
-        jLabelEffort.setText(Local.getString("Est time(hrs)"));
-        effortField.setBorder(border8);
-        effortField.setPreferredSize(new Dimension(30, 24));
-
-        jLabelEffort2.setMaximumSize(new Dimension(100, 16));
-        jLabelEffort2.setMinimumSize(new Dimension(60, 16));
-        jLabelEffort2.setHorizontalAlignment(SwingConstants.Center);
-        jLabelEffort2.setText(Local.getString("Hrs worked"));
+        jLabelEffort.setText(Local.getString("Hrs worked"));
         effortField.setBorder(border8);
         effortField.setPreferredSize(new Dimension(30, 24));
         
@@ -356,7 +348,6 @@ public class TaskDialog extends JDialog {
         // added by rawsushi
         jPanel2.add(jPanelEffort, null);
         jPanelEffort.add(jLabelEffort, null);
-        jPanelEffort.add(jLabelEffort2, null);
         jPanelEffort.add(effortField, null);
 
         jPanel2.add(jPanel4, null);

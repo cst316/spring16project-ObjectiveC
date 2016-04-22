@@ -212,6 +212,12 @@ public class TaskDialog extends JDialog {
         effortField.setBorder(border8);
         effortField.setPreferredSize(new Dimension(30, 24));
 
+        jLabelEffort.setMaximumSize(new Dimension(100, 16));
+        jLabelEffort.setMinimumSize(new Dimension(60, 16));
+        jLabelEffort.setText(Local.getString("Hours spent"));
+        effortField.setBorder(border8);
+        effortField.setPreferredSize(new Dimension(30, 24));
+        
         startDate.setBorder(border8);
         startDate.setPreferredSize(new Dimension(80, 24));                
 		SimpleDateFormat sdf = new SimpleDateFormat();

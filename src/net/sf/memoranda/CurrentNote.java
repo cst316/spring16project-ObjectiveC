@@ -1,4 +1,3 @@
-//hi
 package net.sf.memoranda;
 
 import java.util.Collection;
